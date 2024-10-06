@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 
 // CORS Middleware
 app.use(cors({
-  origin: ["http://localhost:3000", "https://portfolio-n02m.onrender.com", "https://banibuja.github.io", "https://shabanbuja.info", "https://www.shabanbuja.info"],
+  origin: ["http://localhost:3000", "https://shabanbujaportfolio.onrender.com", "https://banibuja.github.io", "https://shabanbuja.info", "https://www.shabanbuja.info"],
   methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"],
   credentials: true
 }));
