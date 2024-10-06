@@ -38,6 +38,10 @@ app.post("/api/send", async (req, res) => {
     },
   });
 
+  console.log("SMTP_USER:", process.env.SMTP_USER);
+console.log("SMTP_PASS:", process.env.SMTP_PASS);
+
+
   const mailOptions = {
     from: 'shabanbuja@shabanbuja.info', 
     to: email, 

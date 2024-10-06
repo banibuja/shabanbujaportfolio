@@ -40,7 +40,7 @@ const EmailSection = () => {
     };
 
     const JSONdata = JSON.stringify(data);
-    const endpoint = "https://portfolio-n02m.onrender.com/api/send"; 
+    const endpoint = "http://localhost:8080/api/send"; 
 
     const options = {
       method: "POST",
