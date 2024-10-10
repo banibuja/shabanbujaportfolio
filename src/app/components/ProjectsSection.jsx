@@ -8,11 +8,11 @@ const projectsData = [
   {
     id: 1,
     title: "EnergieLeads",
-    description: "NextJs",
+    description: "NextJs, TailWindCss",
     image: "images/energieleads.png",
     tag: ["All"], 
-    gitUrl: "https://github.com/banibuja/energieleads",
-    previewUrl: "https://banibuja.github.io/energieleads/",
+    gitUrl: "https://github.com/banibuja/energieleads2",
+    previewUrl: "https://energieleads2.vercel.app/",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "images/ebanking.png",
     tag: ["All"], 
     gitUrl: "https://github.com/banibuja/ebanking",
-    previewUrl: "/",
+    previewUrl: "https://ebanking-ruddy.vercel.app/",
   },
   {
     id: 4,
