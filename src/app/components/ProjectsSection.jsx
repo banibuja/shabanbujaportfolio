@@ -39,7 +39,7 @@ const projectsData = [
     image: "images/onlinestore.png",
     tag: ["All"], 
     gitUrl: "https://github.com/xentoro00/projekti-Web",
-    previewUrl: "/",
+    previewUrl: "",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const projectsData = [
     image: "images/java.png",
     tag: ["All"], 
     gitUrl: "https://github.com/banibuja/Final-Exam-Gui",
-    previewUrl: "/",
+    previewUrl: "",
   },
 ];
 
