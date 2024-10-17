@@ -24,13 +24,13 @@ const EmailSection = () => {
     const value = e.target.value;
     setSubject(value);
 
-    const subjectPattern = /^[a-zA-Z0-9\s.,!?'-]{3,}$/; // At least 3 characters
+    const subjectPattern = /^[a-zA-Z0-9\s.,!?'-]{3,}$/; 
     setIsSubjectValid(subjectPattern.test(value));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(email, subject, message); // Log data
+    console.log(email, subject, message); 
 
 
     const data = {
@@ -40,7 +40,7 @@ const EmailSection = () => {
     };
 
     const JSONdata = JSON.stringify(data);
-    const endpoint = "https://shabanbujaportfolio.onrender.com/api/send"; 
+    const endpoint = "http://localhost:8080/api/send";
 
     const options = {
       method: "POST",
