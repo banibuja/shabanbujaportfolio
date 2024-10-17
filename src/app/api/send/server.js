@@ -5,15 +5,16 @@ const bodyParser = require('body-parser');
 require('dotenv').config();  
 
 const app = express();
-app.use(bodyParser.json());
-
 app.use(cors({
   origin: ["http://localhost:3000", "https://shabanbujaportfolio.onrender.com", "https://banibuja.github.io", "https://shabanbuja.info", "https://www.shabanbuja.info"],
   methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"],
   credentials: true
 }));
+app.use(bodyParser.json());
 
-app.post('/api/send', (req, res) => {
+
+
+app.post('/send', (req, res) => {
   const { email, subject, message } = req.body;
 
   const transporter = nodemailer.createTransport({
